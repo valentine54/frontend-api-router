@@ -9,6 +9,7 @@ import Lime from './Components/Lime'
 function App() {
   return (
     <div>
+      {/* <p className='underline bg-green-200'>hello world</p> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/profile' element={<Profile/>}/>

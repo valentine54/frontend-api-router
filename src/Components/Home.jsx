@@ -18,8 +18,7 @@ function Home() {
       <h1>Home page</h1>
       <button
        onClick={handleClick}
-       className='bg-lime-200'
-      
+       className='!bg-green-200'
       >
         Get a Cat Fact</button>
       <p className='text-red'>{catFact}</p>
